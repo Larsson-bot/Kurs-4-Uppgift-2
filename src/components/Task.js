@@ -26,8 +26,8 @@ const Task = ({task,tasks, setTasks}) => {
                 <div>
                     <div className="name">{task.name}</div>   
                     <div className="description">{task.description}</div>   
-                    <div className="created">Created:   {task.created}</div>
-                    <div className="created">Completed: {task.completed}</div>
+                    <div className="timedisplay">Created: {task.created}</div>
+                    <div className="timedisplay">Completed: {task.completed}</div>
                 </div>
                 <div>
                     <i onClick={statusHandler} className={`fas fa-check me-3 pointer ${task.status ? 'status-true' :'status-false' }` }></i>

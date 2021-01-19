@@ -20,7 +20,7 @@ const Form = ({tasks, setTasks}) => {
     }
     const submitHandler = (e) => {
         e.preventDefault()
-        setTasks([...tasks,{ name: name, description: description, status: false, created:new Date().toLocaleTimeString(), endDate: "" ,  id: uuid()}])
+        setTasks([...tasks,{ name: name, description: description, status: false, created:new Date().toLocaleTimeString(),   id: uuid()}])
         setName('')
         setDescription('')
         setDisabledButton(true)

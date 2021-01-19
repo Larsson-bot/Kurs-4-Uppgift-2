@@ -2,14 +2,14 @@ import React from 'react'
 
 const Navbar = () => {
     return (     
-            <nav className="navbar navbar-light bg-light">
+            <div id="nav">
                 <div className="container">
-                    <a className="navbar-brand d-flex align-items-center" href="/">
+                    <div>
                         <i class="fas fa-dragon"></i>
-                        <span className="ms-2">Task manager</span>
-                    </a>
+                        <span className="task">Task manager</span>
+                    </div>
                 </div>
-            </nav>    
+            </div>    
     )
 }
 
