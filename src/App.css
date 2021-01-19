@@ -1,0 +1,34 @@
+#task-list {
+    font-size: 1.1rem;
+    color: gray;
+}
+
+#task-list .name {
+font-weight: 500;
+color: black;
+}
+
+#task-list .description {
+    font-size: 0.9rem;   
+    margin-bottom: 0.1rem; 
+}
+   
+#task-list .created {
+    font-size: 0.8rem;    
+}
+
+#task-list  i{
+ margin-left: 1.1rem;
+font-size: 1.1em;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.status-false{
+    color:rgb(51, 20, 228)
+}
+.status-true{
+    color:rgb(53, 223, 19)
+}
