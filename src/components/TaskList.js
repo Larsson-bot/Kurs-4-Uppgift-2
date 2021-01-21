@@ -9,17 +9,14 @@ const TaskList = ({tasks,setTasks}) => {
                 No tasks found. Create a task with the form!
             </div>
         )
-    }
-    
+    } 
     return (
-        <div id="task-list" className="mb-5">
-           
+        <div id="task-list" className="mb-5">   
            {
                tasks.map(task =>(
                    <Task key={task.id} task={task} tasks={tasks} setTasks={setTasks}/>
                 ))
            }
-
         </div>
     )
 }

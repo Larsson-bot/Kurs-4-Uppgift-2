@@ -5,7 +5,7 @@ const Navbar = () => {
             <div id="nav">
                 <div className="container">
                     <div>
-                        <i class="fas fa-dragon"></i>
+                        <i className="fas fa-dragon"></i>
                         <span className="task">Task manager</span>
                     </div>
                 </div>

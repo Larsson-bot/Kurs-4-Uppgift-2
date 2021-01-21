@@ -22,11 +22,6 @@ font-weight: 500;
 color: black;
 }
 
-#task-list .description {
-    font-size: 0.9rem;   
-    margin-bottom: 0.1rem; 
-}
-   
 #task-list .timedisplay {
     font-size: 0.8rem;    
 }

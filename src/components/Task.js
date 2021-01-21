@@ -25,12 +25,11 @@ const Task = ({task,tasks, setTasks}) => {
             <div className="d-flex justify-content-between align-items-center">
                 <div>
                     <div className="name">{task.name}</div>   
-                    <div className="description">{task.description}</div>   
                     <div className="timedisplay">Created: {task.created}</div>
                     <div className="timedisplay">Completed: {task.completed}</div>
                 </div>
                 <div>
-                    <i onClick={statusHandler} className={`fas fa-check me-3 pointer ${task.status ? 'status-true' :'status-false' }` }></i>
+                    <i onClick={statusHandler} className={`fas fa-check me-3 pointer ${task.status ? 'status-true' :'status-false' }` } ></i>
                     <i onClick={deleteHandler} className="fas fa-trash-alt pointer"></i>
                 </div>
             </div>
