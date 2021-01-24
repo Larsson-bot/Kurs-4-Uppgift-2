@@ -22,12 +22,16 @@ font-weight: 500;
 color: black;
 }
 
+.task-weight{
+    font-weight: bold;
+}
+
 #task-list .timedisplay {
     font-size: 0.8rem;    
 }
 
 #task-list  i{
- margin-left: 1.1rem;
+margin-left: 1.1rem;
 font-size: 1.1em;
 }
 

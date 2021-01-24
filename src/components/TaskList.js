@@ -5,9 +5,10 @@ const TaskList = ({tasks,setTasks}) => {
     
     if(tasks.length === 0){
         return (
-            <div id="task-list" className="mb-5 text-center">
-                No tasks found. Create a task with the form!
-            </div>
+        <>
+            <div id="task-list" className="mb-1 text-center task-weight">No tasks found.</div>
+            <div className="text-center">Create a task with the Task manager form!</div> 
+        </>
         )
     } 
     return (
